@@ -5,12 +5,36 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgba(255, 0, 0, 0.492);
-  
+  background: rgba(0, 0, 0, 0.492);
+  align-content: center;
+  display: grid;
 }
 
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+button {
+  background: rgba(102, 47, 255, 0.629);
+  position: relative;
+  margin-left: 45%;
+
+  margin-bottom: 10px;
+
+}
+
+h1 {
+  margin-left: 41%;
+
+}
+
+h2 {
+  margin-left: 43%;
+
+}
+
+.instructions {
+  margin-left: 37%;
 }
