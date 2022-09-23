@@ -1,11 +1,10 @@
 .tile {
     align-items: center;
     text-align: center;
-    width: 30%;
+    width: 32%;
     height: 150px;
     font-size: 60px;
     background: rgb(0, 153, 255);
     border: 8px solid rgb(0, 13, 128);
-
     float: left;
 }

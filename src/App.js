@@ -98,7 +98,9 @@ class App extends Component {
             <Tile key={i} loc={i} value={value} updateBoard={this.updateBoard.bind(this)} turn={this.state.turn} />
           )
         }.bind(this))}
+        
       </div>
+
     );
   }
 }

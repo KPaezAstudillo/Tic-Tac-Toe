@@ -6,8 +6,6 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background: rgba(0, 0, 0, 0.492);
-  align-content: center;
-  display: grid;
 }
 
 
@@ -16,25 +14,12 @@ code {
     monospace;
 }
 
+.menu{
+  margin-bottom: 10px;
+  align-items: center;
+  text-align: center;
+}
 button {
   background: rgba(102, 47, 255, 0.629);
-  position: relative;
-  margin-left: 45%;
 
-  margin-bottom: 10px;
-
-}
-
-h1 {
-  margin-left: 41%;
-
-}
-
-h2 {
-  margin-left: 43%;
-
-}
-
-.instructions {
-  margin-left: 37%;
 }
